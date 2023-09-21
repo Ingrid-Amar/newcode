@@ -6,3 +6,6 @@ class HomePageVeiw(TemplateView):
 
 class AboutPageView(TemplateView): #new
     template_name = 'about.html'
+
+class PotatoPageView(TemplateView): #new
+    template_name = 'potato.html'
